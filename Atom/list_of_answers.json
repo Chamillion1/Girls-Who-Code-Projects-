@@ -1,0 +1,6 @@
+import json
+f = open("new_data.json", "r")
+data = json.load(file)
+
+for response in data:
+    print(response["What is your name?"])
